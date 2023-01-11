@@ -25,7 +25,11 @@ export default function Sidebar() {
     <div className="sidebar">
         <div className="sidebarItem">
             <span className="sidebarTitle">ABOUT ME</span>
-            <img className="topImg" src={PF + user.profilePic} alt=""/>
+            {user ? (
+              <img className="topImg" src={PF + user.profilePic} alt=""/>
+            ) : (
+              <img className="topImg" src="https://images.pexels.com/photos/1115147/pexels-photo-1115147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Home Picture"/>
+            )}
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, cum?</p>
         </div>
         <div className="sidebarItem">

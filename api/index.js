@@ -1,6 +1,7 @@
 const { MongoClient } = require('mongodb');
 const express = require("express");
 const app = express();
+const PORT = 3000;
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const authRoute = require("./routes/auth");
@@ -9,6 +10,7 @@ const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
+
 
 mongoose.set('strictQuery', false);
 
@@ -43,6 +45,6 @@ app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 
-app.listen(process.env.PORT || "3000", () => {
-    console.log("Backend is running.");
+app.listen(process.env.PORT || PORT, () => {
+    console.log(`The server is now running on ${PORT}!`);
 });
