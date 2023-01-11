@@ -7,6 +7,7 @@ import "./sidebar.css";
 export default function Sidebar() {
   const [cats,setCats] = useState([]);
 
+  // eslint-disable-next-line no-unused-vars
   const { user, dispatch } = useContext(Context);
   const PF = "http://localhost:3000/images/"
 
@@ -24,7 +25,7 @@ export default function Sidebar() {
     <div className="sidebar">
         <div className="sidebarItem">
             <span className="sidebarTitle">ABOUT ME</span>
-            <img className="topImg" src={PF+user.profilePic} alt=""/>
+            <img className="topImg" src={PF + user.profilePic} alt=""/>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, cum?</p>
         </div>
         <div className="sidebarItem">
