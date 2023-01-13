@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/teejcoder/whats-the-tea-blog/issues"
   },
-  "homepage": "https://github.com/teejcoder/whats-the-tea-blog#readme"
+  "homepage": "https://github.com/teejcoder/whats-the-tea-blog#readme",
+  "dependencies": {
+    "npm": "^9.3.0"
+  }
 }
