@@ -2,9 +2,9 @@
   "name": "whats-the-tea-blog",
   "version": "1.0.0",
   "description": "<h2 align=\"center\">What's The Tea? React Blog</h2>",
-  "main": "index.js",
+  "main": "/api/index.js",
   "scripts": {
-    "start": "api/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
