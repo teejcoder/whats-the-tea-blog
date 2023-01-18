@@ -1,7 +1,7 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "main": "/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
@@ -14,11 +14,18 @@
     "dotenv": "^16.0.3",
     "env": "^0.0.2",
     "express": "^4.18.2",
-    "mongoose": "^6.8.3",
+    "mongoose": "^6.8.4",
     "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.20",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
-  "description": ""
+  "description": "<h2 align=\"center\">What's The Tea? React Blog</h2>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teejcoder/whats-the-tea-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teejcoder/whats-the-tea-blog/issues"
+  },
+  "homepage": "https://github.com/teejcoder/whats-the-tea-blog#readme"
 }
