@@ -27,17 +27,6 @@ mongoose
 .then(console.log("connected to MONGO DB"))
 .catch((err) => console.log(err));
 
-app.use(express.static(path.join(__dirname, "/client/build")));
-app.get((req, res) => {
-  res.sendFile(
-    path.join(__dirname, "/client/build/index.html"),
-    function (error) {
-      console.log(err);
-    }
-  );
-  console.log(error)
-});
-
 const storage = multer.diskStorage({
     destination:(req,file,cb) => {
         cb(null, "images");
