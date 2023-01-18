@@ -1,5 +1,7 @@
+.gitattributes
+.gitignore
 .env
-.images
+images
 node_modules
 .DS_Store
 api/images
