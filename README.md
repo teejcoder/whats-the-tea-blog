@@ -3,8 +3,6 @@
 
 <img src="https://media.giphy.com/media/xsgmnZFCp0NznqMB6l/giphy.gif" width="100%">
 
-(squint to view .gif, haha)
-
 <h2>What's The Tea? React Blog</h2>
 React blog app REST API using Express Node.js and MongoDB.
 <br>
